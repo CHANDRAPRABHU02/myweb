@@ -1,0 +1,42 @@
+body{
+  background-color: red;
+}
+
+#head1{
+  font-size:  40px;
+  font-family: 'Modak', cursive;
+}
+
+header{
+  border-bottom: 2px solid #AFF;
+  /* float: left; */
+}
+
+.content{
+  background-color: rgb(156, 186, 205);
+  padding: 10px;
+  margin: 20px;
+  font-size: 35px;
+  font-family: 'Caveat', cursive;
+}
+
+.content>h1{
+  font-family: 'Merienda One', cursive;
+}
+
+#poori-content:hover{
+  background-image: url("poori.jpg");
+  background-size: 100% 100%;
+  backface-visibility: hidden;
+}
+
+#idly-content:hover{
+  background-image: url("idly.jpg");
+  background-size: 100% 100%;
+  backface-visibility: hidden;
+}
+#dosa-content:hover{
+  background-image: url("dosa.jpg");
+  background-size: 100% 100%;
+  backface-visibility: hidden;
+}
