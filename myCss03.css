@@ -8,8 +8,6 @@ body{
 }
 
 header{
-  border-bottom: 2px solid #AFF;
-  /* float: left; */
 }
 
 .content{
@@ -29,6 +27,9 @@ header{
   background-size: 100% 100%;
   backface-visibility: hidden;
 }
+.container{
+  padding-top: 10px;
+}
 
 #idly-content:hover{
   background-image: url("idly.jpg");
@@ -39,4 +40,26 @@ header{
   background-image: url("dosa.jpg");
   background-size: 100% 100%;
   backface-visibility: hidden;
+}
+
+#myTitle01{
+  padding-top: 3px;
+  background-color: rgb(69,120,198);
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-left:  36vw;
+  /* margin-right: 1; */
+  text-align:center;
+  float: left;
+  color:rgb(191, 255, 0);
+  font-size: 52px;
+  font-family: 'Dancing Script', cursive;
+  border: solid 2px rgb(12,34,45);
+  border-radius: 100%;
+}
+
+@media (max-width:720px) {
+  #myTitle01{
+    margin-left: 26vw;
+  }
 }

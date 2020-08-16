@@ -2,17 +2,23 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="myCss03.css">
   </head>
   <body>
     <header>
-      <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
+      <nav id="header-nav" class="navbar navbar-default ">
+        <div id="myTitle01">
+          Indian Dishes
+        </div>
+        <div class="container visible-xs">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -25,47 +31,30 @@
           <div id="collapsable-nav" class="collapse navbar-collapse">
              <ul id="nav-list" class="nav navbar-nav navbar-right">
               <li class="visible-xs active">
-                <a href="index.html">
+                <a href="#myTitle01">
                   <span class="glyphicon glyphicon-home"></span> Home</a>
               </li>
               <li>
-                <a href="menu-categories.html">
-                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+                <a href="#dosa">
+                  <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Dosa</a>
               </li>
               <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+                <a href="#idly">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> Idly</a>
               </li>
               <li>
-                <a href="#">
-                  <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+                <a href="#poori">
+                  <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Poori</a>
               </li>
               <li id="phone" class="hidden-xs">
                 <a href="tel:*121#">
-                  <span>410-602-5008</span></a><div>* We Deliver</div>
+                  <span>Reach us</span></a><div>* We Deliver</div>
               </li>
             </ul><!-- #nav-list -->
           </div><!-- .collapse .navbar-collapse -->
         </div><!-- .container -->
       </nav><!-- #header-nav -->
     </header>
-    <!-- <header>
-      <div  id = "head1">
-        Abc
-      </div>
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-        </div>
-      </nav>
-    </header> -->
     <div class="content" id = "dosa">
       <h1 class="text-center">Dosa</h1>
       <div  id = "dosa-content">
@@ -86,6 +75,8 @@
         Puri bhaji (sometimes spelled poori bhaji) is a dish, originating from the Indian subcontinent, of puri (deep-fried rounds of flour) and aloo (potato) bhaji (a spiced potato dish which may be dry or curried).[1] It is a traditional breakfast dish in North India. Fresh puris made at home Many Indian households prefer puri bhaji and other traditional dishes over cereals for breakfast.[3][4] Some serve it for lunch along with condiments such as dahi (yogurt) and salad.[5] In central India, puri bhaji is served as a street snack.[6] Puri bhaji is a vegetarian dish and is popular in India because it is relatively inexpensive and tasty.[citation needed] The dish is also served on railway platforms in India[7] and is served as a packed lunch on trains along with pickle.[8] Puri bhajican also be served with halva.
       </div>
     </div>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="bootstrap.min.js"></script>
 
   </body>
 </html>
