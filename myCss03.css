@@ -60,6 +60,11 @@ header{
 
 @media (max-width:720px) {
   #myTitle01{
-    margin-left: 26vw;
+    margin-left: 22vw;
+  }
+}
+@media (max-width:520px) {
+  #myTitle01{
+    margin-left: 14vw;
   }
 }
